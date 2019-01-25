@@ -1,0 +1,31 @@
+{
+  "name": "dojot-iotagent-http",
+  "version": "1.0.0",
+  "description": "Iot-agent to be used with dojot iot platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/eliasreis54/dojot-iotagent-http.git"
+  },
+  "keywords": [
+    "dojot",
+    "iot",
+    "agent"
+  ],
+  "author": "Elias Reis <eliasreis54@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eliasreis54/dojot-iotagent-http/issues"
+  },
+  "homepage": "https://github.com/eliasreis54/dojot-iotagent-http#readme",
+  "dependencies": {
+    "@dojot/iotagent-nodejs": "^2.1.0-beta.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1"
+  }
+}
